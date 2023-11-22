@@ -34,6 +34,7 @@ function App() {
 
   const userCards = users.map((user) => <UserCard key={user.name} user={user} />);
 
+
   return (
     <div>
       {usersHidden && userCards}
